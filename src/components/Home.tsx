@@ -31,7 +31,7 @@ const Home = () => {
   };
 
   return (
-    <div className='min-h-screen'>
+    <div className='h-full w-full overflow-hidden min-h-screen mt-[22rem] items-center justify-center'>
       <Spotlight
         className="-top-40 left-0 md:left-60 md:-top-20"
         fill="white"
@@ -47,7 +47,7 @@ const Home = () => {
         />
       </div>
 
-      <div className="flex flex-col justify-center top-52">
+      <div className="flex flex-col justify-center items-center ">
       <Image
       src="/images/Open-book.png"
       width={500}
